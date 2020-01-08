@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteMVC", "TesteMVC.csproj", "{AD835E65-1F2A-4E7D-B8D8-90C931B35CC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlToPDFCore", "..\HtmlToPDFCore\HtmlToPDFCore.csproj", "{4621E4DE-C86F-4FEB-AE71-18AB865ED993}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePDF", "..\TestePDF\TestePDF.csproj", "{DB116649-300A-4403-85EF-6D263D6AA085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD835E65-1F2A-4E7D-B8D8-90C931B35CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD835E65-1F2A-4E7D-B8D8-90C931B35CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD835E65-1F2A-4E7D-B8D8-90C931B35CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD835E65-1F2A-4E7D-B8D8-90C931B35CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4621E4DE-C86F-4FEB-AE71-18AB865ED993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4621E4DE-C86F-4FEB-AE71-18AB865ED993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4621E4DE-C86F-4FEB-AE71-18AB865ED993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4621E4DE-C86F-4FEB-AE71-18AB865ED993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB116649-300A-4403-85EF-6D263D6AA085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB116649-300A-4403-85EF-6D263D6AA085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB116649-300A-4403-85EF-6D263D6AA085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB116649-300A-4403-85EF-6D263D6AA085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3F727F7-A55D-43DE-A3BA-6785505D2407}
+	EndGlobalSection
+EndGlobal

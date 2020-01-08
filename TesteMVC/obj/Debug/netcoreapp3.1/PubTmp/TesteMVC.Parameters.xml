@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="testepdfcds" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\cds\\git\\Exemplos\\PDFCore\\TesteMVC\\obj\\Debug\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

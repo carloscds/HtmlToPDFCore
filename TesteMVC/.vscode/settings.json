@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/37db2ae8-e4d5-4a6a-9dc4-e42b9cd84743/resourceGroups/Videos/providers/Microsoft.Web/sites/testepdfcds"
+}
