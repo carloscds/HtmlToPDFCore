@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: windows
+    runs-on: [ubuntu-latest]
 
     steps:
     - uses: actions/checkout@v2
@@ -18,7 +18,7 @@ jobs:
     - name: Setup Nuget.exe
       uses: warrenbuckley/Setup-Nuget@v1
     - name: Generate nuget package
-      run: nuget pack HtmlToPDFCore.nuspec
+      run: nuget pack -configuration Release HtmlToPDFCore.nuspec
       working-directory: ./HtmlToPDFCore
             
         
