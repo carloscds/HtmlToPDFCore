@@ -15,10 +15,10 @@ jobs:
         dotnet-version: 2.2.108
     - name: Build with dotnet
       run: dotnet build HtmlToPDFCore/HtmlToPDFCore.csproj --configuration Release
-    - name: Publish NuGet
-      uses: rohith/publish-nuget@v2.0.0
-      with:
-        PROJECT_FILE_PATH: HtmlToPDFCore
-        VERSION_FILE_PATH: HtmlToPDFCore
+    - name: Setup Nuget.exe
+      uses: warrenbuckley/Setup-Nuget@v1
+    - name: Generate nuget package
+      run: nuget pack HtmlToPDFCore.nuspec
+      working-directory: ./HtmlToPDFCore
             
         
