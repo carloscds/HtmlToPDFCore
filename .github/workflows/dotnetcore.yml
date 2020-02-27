@@ -15,10 +15,8 @@ jobs:
         dotnet-version: 3.1.102
     - name: Build with dotnet
       run: dotnet build HtmlToPDFCore/HtmlToPDFCore.csproj --configuration Release
-    - name: Setup Nuget.exe
-      uses: warrenbuckley/Setup-Nuget@v1
     - name: Generate nuget package
-      run: nuget pack --configuration Release HtmlToPDFCore.nuspec
-      working-directory: ./HtmlToPDFCore
+      run: dotnet pack HtmlToPDFCore/HtmlToPDFCore.csproj --configuration Release
+    
             
         
