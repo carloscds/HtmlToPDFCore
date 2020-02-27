@@ -18,7 +18,7 @@ jobs:
     - name: Setup Nuget.exe
       uses: warrenbuckley/Setup-Nuget@v1
     - name: Generate nuget package
-      run: nuget pack -configuration Release HtmlToPDFCore.nuspec
+      run: nuget pack --configuration Release HtmlToPDFCore.nuspec
       working-directory: ./HtmlToPDFCore
             
         
