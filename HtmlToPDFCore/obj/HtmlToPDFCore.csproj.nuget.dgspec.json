@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cds\\git\\Exemplos\\PDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {}
+    "D:\\cds\\git\\GitHub\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {}
   },
   "projects": {
-    "D:\\cds\\git\\Exemplos\\PDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {
+    "D:\\cds\\git\\GitHub\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cds\\git\\Exemplos\\PDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
+        "projectUniqueName": "D:\\cds\\git\\GitHub\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
         "projectName": "HtmlToPDFCore",
-        "projectPath": "D:\\cds\\git\\Exemplos\\PDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
+        "projectPath": "D:\\cds\\git\\GitHub\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
         "packagesPath": "C:\\Users\\cds\\.nuget\\packages\\",
-        "outputPath": "D:\\cds\\git\\Exemplos\\PDFCore\\HtmlToPDFCore\\obj\\",
+        "outputPath": "D:\\cds\\git\\GitHub\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -63,7 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

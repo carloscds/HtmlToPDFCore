@@ -3,10 +3,10 @@
   <metadata>
     <id>HtmlToPDFCore</id>
     <version>1.0.0</version>
-    <authors>HtmlToPDFCore</authors>
-    <owners>HtmlToPDFCore</owners>
+    <authors>Carlos dos Santos</authors>
+    <owners>Carlos dos Santos</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package Description</description>
+    <description>HTMLToPDF convert HTML to PDF File.</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Wkhtmltopdf.NetCore" version="1.1.3" exclude="Build,Analyzers" />
@@ -14,6 +14,11 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\cds\git\Exemplos\PDFCore\HtmlToPDFCore\bin\Debug\netstandard2.0\HtmlToPDFCore.dll" target="lib\netstandard2.0\HtmlToPDFCore.dll" />
+    <file src="D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Debug\netstandard2.0\HtmlToPDFCore.dll" target="lib\netstandard2.0\HtmlToPDFCore.dll" />
+    <file src="D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Debug\netstandard2.0\Rotativa\Linux\libwkhtmltox.so" target="lib\netstandard2.0\libwkhtmltox.so" />
+    <file src="D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Debug\netstandard2.0\Rotativa\Linux\wkhtmltopdf" target="lib\netstandard2.0\wkhtmltopdf" />
+    <file src="D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Debug\netstandard2.0\Rotativa\Mac\libwkhtmltox.dylib" target="lib\netstandard2.0\libwkhtmltox.dylib" />
+    <file src="D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Debug\netstandard2.0\Rotativa\Windows\wkhtmltopdf.exe" target="lib\netstandard2.0\wkhtmltopdf.exe" />
+    <file src="D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Debug\netstandard2.0\Rotativa\Windows\wkhtmltox.dll" target="lib\netstandard2.0\wkhtmltox.dll" />
   </files>
 </package>

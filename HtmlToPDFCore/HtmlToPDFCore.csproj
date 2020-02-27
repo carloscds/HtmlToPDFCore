@@ -4,16 +4,35 @@
     <OutputType>library</OutputType>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>HtmlToPDFCore</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Carlos dos Santos</Authors>
+    <Company>Carlos dos Santos</Company>
+    <projectUrl>https://github.com/carloscds/HtmlToPDFCore/</projectUrl>
+    <iconUrl>https://github.com/carloscds/HtmlToPDFCore/blob/master/HtmlToPDFCore.png</iconUrl>
+    <description>HTMLToPDF convert HTML to PDF File.</description>
+    <summary>HTMLToPDF convert HTML to PDF File.</summary>
+    <licenseUrl>https://github.com/carloscds/HtmlToPDFCore/blob/master/LICENSE</licenseUrl>
+    <tags>html pdf .net core</tags>
   </PropertyGroup>
-
+ 
   <ItemGroup>
     <PackageReference Include="Wkhtmltopdf.NetCore" Version="1.1.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Rotativa\Linux\libwkhtmltox.so">
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Linux\libwkhtmltox.so"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Linux\wkhtmltopdf"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Mac\libwkhtmltox.dylib"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Mac\wkhtmltopdf"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Windows\wkhtmltopdf.exe"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Windows\wkhtmltox.dll"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageFiles Include="Rotativa\Linux\libwkhtmltox.so">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </PackageFiles>
     <None Update="Rotativa\Linux\wkhtmltopdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
