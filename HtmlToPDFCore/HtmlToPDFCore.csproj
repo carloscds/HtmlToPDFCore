@@ -21,17 +21,45 @@
   </ItemGroup>
 
   <ItemGroup>
-    <_PackageFiles Include="$(OutputPath)\Rotativa\Linux\libwkhtmltox.so"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
-    <_PackageFiles Include="$(OutputPath)\Rotativa\Linux\wkhtmltopdf"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
-    <_PackageFiles Include="$(OutputPath)\Rotativa\Mac\libwkhtmltox.dylib"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
-    <_PackageFiles Include="$(OutputPath)\Rotativa\Mac\wkhtmltopdf"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
-    <_PackageFiles Include="$(OutputPath)\Rotativa\Windows\wkhtmltopdf.exe"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
-    <_PackageFiles Include="$(OutputPath)\Rotativa\Windows\wkhtmltox.dll"> <BuildAction>None</BuildAction> <PackagePath>lib\netstandard2.0\</PackagePath></_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Linux\libwkhtmltox.so"> 
+       <BuildAction>None</BuildAction> 
+       <CopyToOutputDirectory>true</CopyToOutputDirectory> 
+       <PackagePath>lib\netstandard2.0\Rotativa\Linux</PackagePath>
+    </_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Linux\wkhtmltopdf"> 
+       <BuildAction>None</BuildAction> 
+       <CopyToOutputDirectory>true</CopyToOutputDirectory> 
+       <PackagePath>lib\netstandard2.0\Rotativa\Linux</PackagePath>
+    </_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Mac\libwkhtmltox.dylib">
+       <BuildAction>None</BuildAction> 
+       <CopyToOutputDirectory>true</CopyToOutputDirectory> 
+       <PackagePath>lib\netstandard2.0\Rotativa\Mac</PackagePath>
+    </_PackageFiles>
+    <_PackageFiles Include="$(OutputPath)\Rotativa\Mac\wkhtmltopdf">
+       <BuildAction>None</BuildAction> 
+       <CopyToOutputDirectory>true</CopyToOutputDirectory> 
+       <PackagePath>lib\netstandard2.0\Rotativa\Mac</PackagePath>
+     </_PackageFiles>
+     <_PackageFiles Include="$(OutputPath)\Rotativa\Windows\wkhtmltopdf.exe"> 
+        <BuildAction>None</BuildAction> 
+        <CopyToOutputDirectory>true</CopyToOutputDirectory> 
+        <PackagePath>lib\netstandard2.0\Rotativa\Windows</PackagePath>
+     </_PackageFiles>
+     <_PackageFiles Include="$(OutputPath)\Rotativa\Windows\wkhtmltox.dll">
+        <BuildAction>None</BuildAction> 
+        <CopyToOutputDirectory>true</CopyToOutputDirectory> 
+        <PackagePath>lib\netstandard2.0\Rotativa\Windows</PackagePath>
+     </_PackageFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+     <None Update="Rotativa\**" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   
   <ItemGroup>
     <PackageFiles Include="Rotativa\Linux\libwkhtmltox.so">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </PackageFiles>
     <None Update="Rotativa\Linux\wkhtmltopdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
