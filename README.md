@@ -7,6 +7,27 @@ This package is huge because include Rotativa files for Windows, Linux and MAC.
 
 Using this tool you can convert an HTML file to PDF file.
 
+### How to use
+```csharp
+static void Main(string[] args)
+{
+    var html = @"                                                                                    
+        <html>                                                                                           
+            <title>PDF</title>                                                                         
+            <body>                                                                                           
+                <b>PDF Sample - Carlos dos Santos</b>                                                                               
+            </body>                                                                                          
+        </html>";                                                                                        
+                                                                                                    
+    var htmlToPdf = new HtmlToPDFCore.HtmlToPDF();
+    var pdf = htmlToPdf.ReturnPDF(html);
+                                                                                                    
+    FileStream fs = new FileStream("teste.pdf",FileMode.CreateNew);                                  
+    fs.Write(pdf,0,pdf.Length);                                                                
+    fs.Close();                                                                                      
+}
+```
+
 ### Environment Tested
 
 Windows
