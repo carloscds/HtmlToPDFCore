@@ -11,20 +11,20 @@ Using this tool you can convert an HTML file to PDF file.
 ```csharp
 static void Main(string[] args)
 {
-    var html = @"                                                                                    
-        <html>                                                                                           
-            <title>PDF</title>                                                                         
-            <body>                                                                                           
-                <b>PDF Sample - Carlos dos Santos</b>                                                                               
-            </body>                                                                                          
-        </html>";                                                                                        
-                                                                                                    
+    var html = @"
+        <html>
+            <title>PDF</title>
+            <body>
+                <b>PDF Sample - Carlos dos Santos</b>
+            </body>
+        </html>";
+
     var htmlToPdf = new HtmlToPDFCore.HtmlToPDF();
     var pdf = htmlToPdf.ReturnPDF(html);
-                                                                                                    
-    FileStream fs = new FileStream("teste.pdf",FileMode.CreateNew);                                  
-    fs.Write(pdf,0,pdf.Length);                                                                
-    fs.Close();                                                                                      
+
+    FileStream fs = new FileStream("teste.pdf",FileMode.CreateNew);
+    fs.Write(pdf,0,pdf.Length);
+    fs.Close();
 }
 ```
 
