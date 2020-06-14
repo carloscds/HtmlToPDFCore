@@ -1,4 +1,5 @@
 [![Nuget count](http://img.shields.io/nuget/v/HtmlToPDFCore.svg)](http://www.nuget.org/packages/HtmlToPDFCore/)
+![.NET Core](https://github.com/carloscds/HtmlToPDFCore/workflows/.NET%20Core/badge.svg)
 
 # HtmlToPDFCore
 Convert HTML to PDF
