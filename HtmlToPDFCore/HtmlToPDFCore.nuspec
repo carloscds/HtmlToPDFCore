@@ -26,11 +26,11 @@
     </contentFiles>
   </metadata>
     <files>
-         <file src="rotativa/Windows/wkhtmltopdf.exe" target="contentFiles/any/any/rotativa/windows/wkhtmltopdf.exe"/>
-         <file src="rotativa/Windows/wkhtmltox.dll" target="contentFiles/any/any/rotativa/windows/wkhtmltox.dll"/>
-         <file src="rotativa/Linux/libwkhtmltox.so" target="contentFiles/any/any/rotativa/linux/libwkhtmltox.so"/>
-         <file src="rotativa/Linux/wkhtmltopdf" target="contentFiles/any/any/rotativa/linux/wkhtmltopdf"/>
-         <file src="rotativa/Mac/libwkhtmltox.dylib" target="contentFiles/any/any/rotativa/mac/libwkhtmltox.dylib"/>
-         <file src="rotativa/Mac/wkhtmltopdf" target="contentFiles/any/any/rotativa/mac/wkhtmltopdf"/>
+         <file src="rotativa/Windows/wkhtmltopdf.exe" target="contentFiles/any/any/rotativa/Windows/wkhtmltopdf.exe"/>
+         <file src="rotativa/Windows/wkhtmltox.dll" target="contentFiles/any/any/rotativa/Windows/wkhtmltox.dll"/>
+         <file src="rotativa/Linux/libwkhtmltox.so" target="contentFiles/any/any/rotativa/Linux/libwkhtmltox.so"/>
+         <file src="rotativa/Linux/wkhtmltopdf" target="contentFiles/any/any/rotativa/Linux/wkhtmltopdf"/>
+         <file src="rotativa/Mac/libwkhtmltox.dylib" target="contentFiles/any/any/rotativa/Mac/libwkhtmltox.dylib"/>
+         <file src="rotativa/Mac/wkhtmltopdf" target="contentFiles/any/any/rotativa/Mac/wkhtmltopdf"/>
     </files>
 </package>
