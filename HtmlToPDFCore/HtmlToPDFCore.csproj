@@ -5,7 +5,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>HtmlToPDFCore</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Carlos dos Santos</Authors>
     <Company>Carlos dos Santos</Company>
     <projectUrl>https://github.com/carloscds/HtmlToPDFCore/</projectUrl>
@@ -21,11 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Rotativa\Linux\libwkhtmltox.so" Pack="true" PackagePath="contentFiles/any/any/rotativa/linux" PackageCopyToOutput="true" />
-    <Content Include="Rotativa\Linux\wkhtmltopdf" Pack="true" PackagePath="contentFiles/any/any/rotativa/linux"  PackageCopyToOutput="true" />
-    <Content Include="Rotativa\Mac\libwkhtmltox.dylib" Pack="true" PackagePath="contentFiles/any/any/rotativa/mac"  PackageCopyToOutput="true" />
-    <Content Include="Rotativa\Mac\wkhtmltopdf" Pack="true" PackagePath="contentFiles/any/any/rotativa/mac"  PackageCopyToOutput="true" />
-    <Content Include="Rotativa\Windows\wkhtmltopdf.exe" Pack="true" PackagePath="contentFiles/any/any/rotativa/windows"  PackageCopyToOutput="true" />
-    <Content Include="Rotativa\Windows\wkhtmltox.dll" Pack="true" PackagePath="contentFiles/any/any/rotativa/windows"  PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Linux\libwkhtmltox.so" Pack="true" PackagePath="contentFiles/any/any/rotativa/Linux" PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Linux\wkhtmltopdf" Pack="true" PackagePath="contentFiles/any/any/rotativa/Linux"  PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Mac\libwkhtmltox.dylib" Pack="true" PackagePath="contentFiles/any/any/rotativa/Mac"  PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Mac\wkhtmltopdf" Pack="true" PackagePath="contentFiles/any/any/rotativa/Mac"  PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Windows\wkhtmltopdf.exe" Pack="true" PackagePath="contentFiles/any/any/rotativa/Windows"  PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Windows\wkhtmltox.dll" Pack="true" PackagePath="contentFiles/any/any/rotativa/Windows"  PackageCopyToOutput="true" />
   </ItemGroup>
 </Project>
