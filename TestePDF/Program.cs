@@ -20,6 +20,7 @@ namespace TestePDF
             }
 
             var pdf = new HtmlToPDF();
+            //pdf.Margins = new PageMargins(5,5,5,5);
             var buffer = pdf.ReturnPDF(html);
             if(File.Exists(pdfFile)) File.Delete(pdfFile);
             using(var f = new FileStream(pdfFile,FileMode.Create))

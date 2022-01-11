@@ -22,6 +22,7 @@ static void Main(string[] args)
 
     var htmlToPdf = new HtmlToPDFCore.HtmlToPDF();
     var pdf = htmlToPdf.ReturnPDF(html);
+    //pdf.Margins = new PageMargins(0,0,0,0);
 
     FileStream fs = new FileStream("teste.pdf",FileMode.CreateNew);
     fs.Write(pdf,0,pdf.Length);
