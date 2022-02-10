@@ -2,6 +2,7 @@
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using Wkhtmltopdf.NetCore;
 using Wkhtmltopdf.NetCore.Options;
 
 namespace HtmlToPDFCore
@@ -9,17 +10,20 @@ namespace HtmlToPDFCore
     public class HtmlToPDF
     {
         public PageMargins Margins {get; set;}
+        public bool DisableSmartShrinking { get; set; }
         public byte[] ReturnPDF(string html)
         {
             var dir = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
             dir = Path.Combine(dir,"rotativa");
-            Wkhtmltopdf.NetCore.RotativaConfiguration.RotativaPath = dir;
-            Wkhtmltopdf.NetCore.RotativaConfiguration.IsWindows = RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
-            var pdf = new Wkhtmltopdf.NetCore.HtmlAsPdf();
-            if(Margins != null)
+            WkhtmltopdfConfiguration.RotativaPath = dir;
+            var pdf = new GeneratePdf(null);
+            var convertOptions = new ConvertOptionsExtended();
+            if (Margins != null)
             {
-                pdf.PageMargins = new Margins(Margins.top,Margins.right,Margins.bottom, Margins.left);
+                convertOptions.PageMargins = new Margins(Margins.top,Margins.right,Margins.bottom, Margins.left);
             }
+            convertOptions.DisableSmartShrinking = DisableSmartShrinking;
+            pdf.SetConvertOptions(convertOptions);
             var buffer = pdf.GetPDF(html);
             return buffer;
         }
