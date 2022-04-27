@@ -32,9 +32,7 @@ static void Main(string[] args)
 
 ### Environment Tested
 
-Windows
-Linux
-Microsoft Azure AppServices using Linux Service Plan
+Windows, Linux, Microsoft Azure AppServices using Linux Service Plan, Docker Container
 
 ### Contributing
 
