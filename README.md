@@ -6,7 +6,7 @@ Convert HTML to PDF
 
 This package is huge because include Rotativa files for Windows, Linux and MAC. 
 
-Using this tool you can convert an HTML file to PDF file.
+Using this tool you can convert a HTML file to PDF file.
 
 ### How to use
 ```csharp
