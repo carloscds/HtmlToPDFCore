@@ -78,7 +78,6 @@ D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\pub\a
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\pub\appsettings.json
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\pub\TesteMVC.deps.json
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\pub\TesteMVC.runtimeconfig.json
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\TesteMVC.StaticWebAssets.xml
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\TesteMVC.exe
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\dependenciesInstall.sh
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\bin\Debug\netcoreapp3.1\TesteMVC.deps.json
@@ -140,3 +139,5 @@ D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\obj\Debug\netcoreapp3.1\Teste
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\obj\Debug\netcoreapp3.1\TesteMVC.csproj.CopyComplete
 D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\obj\Debug\netcoreapp3.1\TesteMVC.genruntimeconfig.cache
 D:\cds\git\github\carloscds\HtmlToPDFCore\testemvc\obj\Debug\netcoreapp3.1\TesteMVC.MvcApplicationPartsAssemblyInfo.cs
+D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\obj\Debug\netcoreapp3.1\staticwebassets\TesteMVC.StaticWebAssets.xml
+D:\cds\git\GitHub\carloscds\HtmlToPDFCore\TesteMVC\obj\Debug\netcoreapp3.1\scopedcss\bundle\TesteMVC.styles.css

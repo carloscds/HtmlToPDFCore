@@ -31,7 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "TesteMVC/1.0.0": {
         "dependencies": {
-          "HtmlToPDFCore": "2.0.0",
+          "HtmlToPDFCore": "2.0.5",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -699,7 +699,7 @@
           "lib/netcoreapp3.0/Wkhtmltopdf.NetCore.dll": {}
         }
       },
-      "HtmlToPDFCore/2.0.0": {
+      "HtmlToPDFCore/2.0.5": {
         "dependencies": {
           "Wkhtmltopdf.NetCore": "3.0.2"
         },
@@ -2732,7 +2732,7 @@
       "path": "wkhtmltopdf.netcore/3.0.2",
       "hashPath": "wkhtmltopdf.netcore.3.0.2.nupkg.sha512"
     },
-    "HtmlToPDFCore/2.0.0": {
+    "HtmlToPDFCore/2.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

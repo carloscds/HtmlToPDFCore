@@ -22,6 +22,7 @@ namespace TestePDF
             var pdf = new HtmlToPDF();
             //pdf.DisableSmartShrinking = true;
             //pdf.Margins = new PageMargins(5,5,5,5);
+            //pdf.Orientation = PageOrientation.Landscape;
             var buffer = pdf.ReturnPDF(html);
             if(File.Exists(pdfFile)) File.Delete(pdfFile);
             using(var f = new FileStream(pdfFile,FileMode.Create))

@@ -38,7 +38,7 @@ namespace HtmlToPDFCore
         /// Sets the page orientation.
         /// </summary>
         [OptionFlag("-O")]
-        public Orientation? PageOrientation { get; set; }
+        public PageOrientation? PageOrientation { get; set; }
 
         /// <summary>
         /// Sets the page margins.

@@ -10,7 +10,13 @@ namespace HtmlToPDFCore
     public class HtmlToPDF
     {
         public PageMargins Margins {get; set;}
+        public PageOrientation Orientation { get; set; }
         public bool DisableSmartShrinking { get; set; }
+        public HtmlToPDF()
+        {
+            Orientation = PageOrientation.Portrait;
+        }
+
         public byte[] ReturnPDF(string html)
         {
             var dir = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
@@ -22,6 +28,7 @@ namespace HtmlToPDFCore
             {
                 convertOptions.PageMargins = new Margins(Margins.top,Margins.right,Margins.bottom, Margins.left);
             }
+            convertOptions.PageOrientation = Orientation;
             convertOptions.DisableSmartShrinking = DisableSmartShrinking;
             pdf.SetConvertOptions(convertOptions);
             var buffer = pdf.GetPDF(html);
