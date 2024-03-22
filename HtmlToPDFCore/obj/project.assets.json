@@ -1639,7 +1639,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "2.0.5",
+    "version": "2.0.7",
     "restore": {
       "projectUniqueName": "D:\\cds\\git\\GitHub\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
       "projectName": "HtmlToPDFCore",

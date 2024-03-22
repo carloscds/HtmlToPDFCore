@@ -692,7 +692,7 @@
           "build/netcoreapp3.0/_._": {}
         }
       },
-      "HtmlToPDFCore/2.0.5": {
+      "HtmlToPDFCore/2.0.7": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1638,7 +1638,7 @@
         "wkhtmltopdf.netcore.nuspec"
       ]
     },
-    "HtmlToPDFCore/2.0.5": {
+    "HtmlToPDFCore/2.0.7": {
       "type": "project",
       "path": "../HtmlToPDFCore/HtmlToPDFCore.csproj",
       "msbuildProject": "../HtmlToPDFCore/HtmlToPDFCore.csproj"
@@ -1646,7 +1646,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "HtmlToPDFCore >= 2.0.5"
+      "HtmlToPDFCore >= 2.0.7"
     ]
   },
   "packageFolders": {
