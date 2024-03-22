@@ -17,6 +17,13 @@ jobs:
       run: dotnet build HtmlToPDFCore/HtmlToPDFCore.csproj --configuration Release
     - name: Generate nuget package
       run: dotnet pack HtmlToPDFCore/HtmlToPDFCore.csproj --configuration Release
+    - name: NuGet Publisher
+      uses: Jacup/publish-nuget@v2.6.0
+      with:
+          PROJECT_FILE_PATH: HtmlToPDFCore/bin/netcoreapp3.1
+          NUGET_KEY: ${{ secrets.NUGET_KEY }}
+          
+          
     
             
         
