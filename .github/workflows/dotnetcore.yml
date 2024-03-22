@@ -20,7 +20,7 @@ jobs:
     - name: NuGet Publisher
       uses: Jacup/publish-nuget@v2.6.0
       with:
-          PROJECT_FILE_PATH: HtmlToPDFCore/bin/netcoreapp3.1
+          PROJECT_FILE_PATH: HtmlToPDFCore
           NUGET_KEY: ${{ secrets.NUGET_KEY }}
           
           
