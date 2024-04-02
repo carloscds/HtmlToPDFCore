@@ -20,13 +20,19 @@ static void Main(string[] args)
             </body>
         </html>";
 
-    var htmlToPdf = new HtmlToPDFCore.HtmlToPDF();
-    var pdf = htmlToPdf.ReturnPDF(html);
-    //pdf.Margins = new PageMargins(0,0,0,0);
-
-    FileStream fs = new FileStream("teste.pdf",FileMode.CreateNew);
-    fs.Write(pdf,0,pdf.Length);
-    fs.Close();
+    var pdf = new HtmlToPDF();
+    //pdf.DisableSmartShrinking = true;
+    //pdf.Margins = new PageMargins(5,5,5,5);
+    //pdf.Orientation = PageOrientation.Landscape;
+    //pdf.PageSize = Wkhtmltopdf.NetCore.Options.Size.A4;
+    var buffer = pdf.ReturnPDF(html);
+    if(File.Exists(pdfFile)) File.Delete(pdfFile);
+    using(var f = new FileStream(pdfFile,FileMode.Create))
+    {
+        f.Write(buffer,0,buffer.Length);
+        f.Flush();
+        f.Close();
+    }
 }
 ```
 
