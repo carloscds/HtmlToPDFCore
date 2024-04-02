@@ -12,9 +12,11 @@ namespace HtmlToPDFCore
         public PageMargins Margins {get; set;}
         public PageOrientation Orientation { get; set; }
         public bool DisableSmartShrinking { get; set; }
+        public Size PageSize { get; set; }
         public HtmlToPDF()
         {
             Orientation = PageOrientation.Portrait;
+            PageSize = Size.A4;
         }
 
         public byte[] ReturnPDF(string html)
@@ -30,7 +32,8 @@ namespace HtmlToPDFCore
             }
             convertOptions.PageOrientation = Orientation;
             convertOptions.DisableSmartShrinking = DisableSmartShrinking;
-            pdf.SetConvertOptions(convertOptions);
+            convertOptions.PageSize = PageSize;
+            
             var buffer = pdf.GetPDF(html);
             return buffer;
         }

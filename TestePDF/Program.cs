@@ -23,6 +23,7 @@ namespace TestePDF
             //pdf.DisableSmartShrinking = true;
             //pdf.Margins = new PageMargins(5,5,5,5);
             //pdf.Orientation = PageOrientation.Landscape;
+            //pdf.PageSize = Wkhtmltopdf.NetCore.Options.Size.A4;
             var buffer = pdf.ReturnPDF(html);
             if(File.Exists(pdfFile)) File.Delete(pdfFile);
             using(var f = new FileStream(pdfFile,FileMode.Create))
