@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cds\\git\\github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {}
+    "D:\\CDS\\git\\Github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {}
   },
   "projects": {
-    "D:\\cds\\git\\github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {
+    "D:\\CDS\\git\\Github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj": {
       "version": "2.0.8",
       "restore": {
-        "projectUniqueName": "D:\\cds\\git\\github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
+        "projectUniqueName": "D:\\CDS\\git\\Github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
         "projectName": "HtmlToPDFCore",
-        "projectPath": "D:\\cds\\git\\github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
+        "projectPath": "D:\\CDS\\git\\Github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\HtmlToPDFCore.csproj",
         "packagesPath": "C:\\Users\\cds\\.nuget\\packages\\",
-        "outputPath": "D:\\cds\\git\\github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\obj\\",
+        "outputPath": "D:\\CDS\\git\\Github\\carloscds\\HtmlToPDFCore\\HtmlToPDFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
@@ -34,7 +34,6 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://helix/NugetServer/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,8 +50,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

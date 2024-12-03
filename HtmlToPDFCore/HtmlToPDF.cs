@@ -33,7 +33,7 @@ namespace HtmlToPDFCore
             convertOptions.PageOrientation = Orientation;
             convertOptions.DisableSmartShrinking = DisableSmartShrinking;
             convertOptions.PageSize = PageSize;
-            
+            pdf.SetConvertOptions(convertOptions);
             var buffer = pdf.GetPDF(html);
             return buffer;
         }
